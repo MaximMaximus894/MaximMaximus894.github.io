@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cookie Clicker</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+  </head>
+  <body onload="openShop()">
+    <h1>Press the Cookie</h1>
+    <h2 id="show-goal"></h2>
+    <p id="level">Level: 1</p>
+    <p id="clicks">0</p>
+    <p id="won"></p>
+    <div>
+        <button class="cookie" style='font-size:100px;' onclick="clickCounter()">&#127850;</button>
+        <br><br>
+        <button onclick="openShop()">Open Shop</button>
+        <div id="shop">
+          <br>
+          <button id="boost-shop" onclick="autoClicker()">Click to buy 1 boost for 10 Cookies</button>
+          <button id="upgrade-shop" onclick="clickerUpgrade()">Double current clicks for 1oo</button>
+          <button id="clicks-per-second" onclick="buyClicksPerSecond()">Buy +1 click per second for 5 Cookies</button>
+        </div>
+        <h2> collected Boost </h2>
+        <p id="collectBoost">0</p>
+        <button onclick="redeemBoost()">Redeem</button>
+    </div>
+  </body>
+</html>
+

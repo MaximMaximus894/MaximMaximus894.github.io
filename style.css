@@ -1,0 +1,36 @@
+h1 {
+    color: black;
+    font-size: 50px;
+    text-align: center;
+  }
+h2 {
+    text-align: center;
+}  
+  
+p {
+    color: rgb(10, 34, 216);
+    text-align: center;
+    font-family: verdana;
+  }
+  
+  div {
+    text-align: center;
+  }
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.cookie {
+    background-color: rgba(250, 235, 215, 0);
+    border: none;
+}
+
+#won{
+    color: green;
+}
+
+#clicks{
+    font-size: 50px;
+}
+
+
